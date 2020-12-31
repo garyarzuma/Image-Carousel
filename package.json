@@ -1,0 +1,22 @@
+{
+  "name": "image-carousel",
+  "description": "Image slideshow carousel done in javascript/html5/CSS.",
+  "version": "1.0.0",
+  "main": "imageCarousel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garyarzuma/Image-Carousel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garyarzuma/Image-Carousel/issues"
+  },
+  "homepage": "https://github.com/garyarzuma/Image-Carousel#readme",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}

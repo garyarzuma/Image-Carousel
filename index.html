@@ -1,33 +1,34 @@
-
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>The HTML5 Herald</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="imageCarousel.css">
+    <title>Image Carousel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="imageCarousel.css" />
+  </head>
 
-</head>
-
-<body>
-<div class = "frame-Container">
-  <div class = "button left">
-
-  </div>  
-  <div class = "image-Container"> 
-      <div class = "images">
-
+  <body>
+    <h1>Image Carousel</h1>
+    <div class="frame-Container">
+      <a class="left">&#10094; </a>
+      <div class="image-Container">
+        <div class="images">
+          <div class="mySlides">
+            <img src="Sky.jpeg" class="sky" />
+          </div>
+          <div class="mySlides">
+            <img src="Lucy.jpg" class="lucy" />
+          </div>
+          <div class="mySlides">
+            <img src="Kids.jpeg" class="kids" />
+          </div>
+        </div>
       </div>
-      <div class = "dots">
-
-      </div>
-  </div>
-  <div class ="button right">
-      
-  </div>  
-</div>  
-  <script src="imageCarousel.js"></script>
-</body>
+      <a class="right">&#10095; </a>
+    </div>
+    <div class="dots"></div>
+    <script src="imageCarousel.js"></script>
+  </body>
 </html>

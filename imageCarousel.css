@@ -1,0 +1,63 @@
+body {
+}
+h1 {
+  text-align: center;
+}
+.image-Container {
+  width: 70%;
+}
+.frame-Container {
+  display: flex;
+  margin: auto;
+  max-width: 700px;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  transform: translate(45px);
+  padding-left: 10px;
+  padding-right: 20px;
+  cursor: pointer;
+  color: rgb(153, 153, 153);
+  margin-bottom: 5px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  transform: translate(-45px);
+  padding-left: 20px;
+  padding-right: 10px;
+  cursor: pointer;
+  color: rgb(153, 153, 153);
+  margin-bottom: 5px;
+}
+.left:hover {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.555);
+}
+
+.right:hover {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.555);
+}
+
+.mySlides {
+  display: none;
+}
+
+.lucy {
+  width: 100%;
+}
+
+.kids {
+  width: 100%;
+}
+
+.sky {
+  width: 100%;
+}
