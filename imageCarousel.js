@@ -2,6 +2,8 @@ const imageCarousel = (() => {
   let currentSlide = 0;
   const slideNodes = document.getElementsByClassName("mySlides");
   const slideArray = [...slideNodes];
+  const dotsNodes = document.getElementsByClassName("dot");
+  const dotsArray = [...dotsNodes];
 
   const changeSlide = (event) => {
     if (event.target.className === "right") {
@@ -17,9 +19,16 @@ const imageCarousel = (() => {
   const displayCurrentSlide = () => {
     slideArray.forEach((slide) => (slide.style.display = "none"));
     slideNodes[currentSlide].style.display = "block";
+    dotsArray.forEach((dot) => (dot.style.backgroundColor = "#bbb"));
+    dotsNodes[currentSlide].style.backgroundColor = "rgb(94, 94, 94)";
   };
 
   displayCurrentSlide();
+  setInterval(function () {
+    currentSlide =
+      currentSlide === slideNodes.length - 1 ? 0 : currentSlide + 1;
+    displayCurrentSlide();
+  }, 5000);
 
   return { changeSlide };
 })();
